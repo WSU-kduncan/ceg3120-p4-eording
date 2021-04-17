@@ -1,9 +1,7 @@
 name: Deploy to Amazon ECS
 
 on:
-  push:
-    tags:
-      - 'v*'   
+   
   release:
     types: [ created ]
 
