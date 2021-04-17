@@ -1,7 +1,6 @@
 name: Deploy to Amazon ECS
 
-on:
-   
+on:   
   release:
     types: [ created ]
 
